@@ -6,7 +6,9 @@
 	$:remaining = todos.filter(t => !t.done).length;
 	$:done = todos.filter(t => t.done).length;
 	$: total = todos.length;
-	
+	let saved = localStorage.setItem('todo', todos);
+	let getTodo = localStorage.getItem('todo');
+	console.log(getTodo);
 </script>
 
 <!-- Markup goes here -->
@@ -25,6 +27,7 @@
 	<div>
 	{done}/{total} done
 	</div>
+	<p>{getTodo} todo</p>
 	<br>
 	<button on:click={add}>Add</button>
 	<button on:click={clear}>Clear done</button>
