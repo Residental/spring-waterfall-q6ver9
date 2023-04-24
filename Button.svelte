@@ -32,11 +32,11 @@
 <style>	
 	.done{opacity:0.4;}
 	input[type='checkbox'] {
-    width:20px;
+    	width:20px;
 		height:20px;
-    background:white;
-	border-radius:5px;
-    border:2px solid #555;
+		background:white;
+		border-radius:5px;
+		border:2px solid #555;
 	}
 	button{
 		padding:2rem; 

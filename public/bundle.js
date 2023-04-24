@@ -465,12 +465,12 @@ var app = (function () {
     			t = space();
     			input1 = element("input");
     			attr_dev(input0, "type", "checkbox");
-    			attr_dev(input0, "class", "svelte-1ok41d5");
+    			attr_dev(input0, "class", "svelte-1a53tuz");
     			add_location(input0, file, 16, 1, 496);
     			attr_dev(input1, "type", "text");
-    			attr_dev(input1, "class", "svelte-1ok41d5");
+    			attr_dev(input1, "class", "svelte-1a53tuz");
     			add_location(input1, file, 17, 1, 547);
-    			attr_dev(div, "class", "svelte-1ok41d5");
+    			attr_dev(div, "class", "svelte-1a53tuz");
     			toggle_class(div, "done", /*todo*/ ctx[8].done);
     			add_location(div, file, 15, 0, 466);
     		},
@@ -596,9 +596,9 @@ var app = (function () {
     			add_location(br0, file, 23, 1, 652);
     			add_location(div1, file, 24, 1, 658);
     			add_location(br1, file, 27, 1, 694);
-    			attr_dev(button0, "class", "svelte-1ok41d5");
+    			attr_dev(button0, "class", "svelte-1a53tuz");
     			add_location(button0, file, 28, 1, 700);
-    			attr_dev(button1, "class", "svelte-1ok41d5");
+    			attr_dev(button1, "class", "svelte-1a53tuz");
     			add_location(button1, file, 29, 1, 737);
     			add_location(body, file, 12, 0, 406);
     		},
